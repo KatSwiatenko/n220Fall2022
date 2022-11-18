@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Mixer</title>
+  </head>
+  <body>
+    <!-- This is an application that will start a div at a black color, and as a user presses buttons associated with RGB, the div will change to new colors. The button presses should affect additively - that is. If a div is currently blue, pressing +red buttons will change the div to a purple color.
+
+    9 buttons (associated with red green and blue). There should be a +1, +5, and +10 button for each color.
+    1 div that will change colors to the rgb color calculated
+
+    1 div that shows the current calculated rgb color
+
+    You must use attributes on the buttons for the values to change the colors by. -->
+
+    <div id="colorDisplay"></div>
+
+    <br />
+
+    <div id="currentColor">Current Color:</div>
+
+    <br />
+
+    <div class="red">
+      Red:
+      <button>+1</button>
+      <button>+5</button>
+      <button>+10</button>
+    </div>
+
+    <div class="green">
+      Green:
+      <button>+1</button>
+      <button>+5</button>
+      <button>+10</button>
+    </div>
+
+    <div class="blue">
+      Blue:
+      <button>+1</button>
+      <button>+5</button>
+      <button>+10</button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
