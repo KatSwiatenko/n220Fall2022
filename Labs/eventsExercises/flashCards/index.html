@@ -11,7 +11,20 @@
 
     When a button is clicked, display the answer to the button's question in a div. Use only one function, and that function must make use of the button's data-attribute. -->
 
-    <div class="cards"></div>
+    <div class="cards">
+      <button onclick="clicked(event)" data-response="Indianapolis">
+        The capital of Indiana is ?
+      </button>
+      <button onclick="clicked(event)" data-response="Persian">
+        The most popular cat breed in Indiana is ?
+      </button>
+      <button onclick="clicked(event)" data-response="Bulldog">
+        The most popular dog breed in Indiana is ?
+      </button>
+    </div>
+    <div class="first"></div>
+    <div class="second"></div>
+    <div class="third"></div>
 
     <script src="app.js"></script>
   </body>
